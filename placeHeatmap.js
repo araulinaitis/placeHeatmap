@@ -105,10 +105,3 @@ async function interpolateColor(x, c1, c2) {
   }
   return out;
 }
-
-async function padNumber(number, digits) {
-  while (number.toString().length < digits) {
-    number = '0' + number;
-  }
-  return number;
-}
